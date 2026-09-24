@@ -1,0 +1,13 @@
+/* Hide the default text title */
+.navbar-brand strong {
+  display: none !important;
+}
+
+/* Set the logo image as background */
+.navbar-brand {
+  background: url('/quanthieunang.github.io/img/dipper_pins.jpg') no-repeat left center !important;
+  background-size: contain !important;
+  width: 120px;
+  height: 40px;
+  display: inline-block;
+}
